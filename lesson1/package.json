@@ -2,7 +2,7 @@
   "name": "webserver",
   "version": "1.0.0",
   "description": "geekbrains webserver",
-  "main": "script.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -16,5 +16,5 @@
   "bugs": {
     "url": "https://github.com/nat0t/js_advanced/issues"
   },
-  "homepage": "https://github.com/nat0t/js_advanced/"
+  "homepage": "https://github.com/nat0t/js_advanced#readme"
 }
