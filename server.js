@@ -2,7 +2,8 @@ const path = require('path');
 const http = require('http');
 const fs = require('fs');
 
-const dir = path.join(__dirname, 'public');
+// const dir = path.join(__dirname, 'public');
+const dir = __dirname;
 const mime = {
   html: 'text/html',
   txt: 'text/plain',
