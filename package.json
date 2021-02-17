@@ -1,0 +1,20 @@
+{
+  "name": "webserver",
+  "version": "1.0.0",
+  "description": "geekbrains webserver",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nat0t/js_advanced.git"
+  },
+  "author": "Evgeniy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nat0t/js_advanced/issues"
+  },
+  "homepage": "https://github.com/nat0t/js_advanced#readme"
+}
