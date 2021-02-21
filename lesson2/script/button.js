@@ -1,29 +1,30 @@
 class Button {
   _text = ''
   _callback = null
+  className = ''
 
-  constructor (text, callback) {
+  constructor(text, callback) {
     this._text = text
     this._callback = callback
   }
 
-  onBtnClick () {
+  onBtnClick() {
     const callback = this._callback
     if (typeof callback === 'function') {
       callback()
     }
   }
 
-  getTemplate () {
+  getTemplate(className) {
     const btn = document.createElement('button')
-    btn.classList.add('btn')
+    btn.classList.add(className)
 
     return btn
   }
 
-  render (placeToRender) {
+  render(placeToRender, className) {
     if (placeToRender) {
-      const btn = this.getTemplate()
+      const btn = this.getTemplate(className)
       btn.innerHTML = this._text
       placeToRender.appendChild(btn)
 
