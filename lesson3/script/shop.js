@@ -29,7 +29,7 @@ class List extends AbstractList {
 
   fetchGoods() {
     const urlLocal = 'http://localhost:3000/database/items.json'
-    const urlHeroku = 'https://gb-baraholka.herokuapp.com/lesson3/database/items.json'
+    const urlHeroku = 'https://gb-baraholka.herokuapp.com/database/items.json'
     fetch(urlHeroku)
       .then(res => {
         return res.json()
