@@ -1,0 +1,48 @@
+.feedback {
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   border-radius: 5px;
+   margin: 10px;
+   padding: 10px;
+   width: 340px;
+   height: 330px;
+}
+
+.fault {
+   width: 870px;
+}
+
+.input-wrapper {
+   display: flex;
+}
+
+.titles {
+   width: 140px;
+   float: left;
+}
+
+input {
+   margin-bottom: 10px;
+}
+
+.feedback input, textarea {
+   border-radius: 5px;
+   width: 190px;
+}
+
+.submit {
+   height: 50px;
+   margin-top: 10px;
+   margin-left: 270px;
+}
+
+.feedback h2 {
+   text-align: center;
+}
+
+.invalid {
+   border: 2px solid red;
+}
+
+.error {
+   color: red;
+}
