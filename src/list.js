@@ -10,7 +10,9 @@ export default class List extends AbstractList {
     }
 
     fetchGoods() {
-        fetch('http://localhost:3000/database/items.json')
+        const urlLocal = 'http://localhost:3000/database/items.json'
+        const urlHeroku = 'https://gb-baraholka.herokuapp.com/database/items.json'
+        fetch(urlHeroku)
             .then(res => {
                 return res.json()
             })
