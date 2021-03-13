@@ -4,53 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/normalize.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Shop</title>
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
 </head>
 
 <body>
-    <main>
-        <!-- <h1 @click="onHeaderClick">{{ message }}</h1>
-        <button @click="onButtonClick">Click me</button>
-        <div v-show="doShowAnything">Anything</div>
-        <button @click="doShowAnything = !doShowAnything">Toggle Anything</button> -->
-
-        <input type="text" placeholder="1" v-model="inputValue">
-        <div>Введенные данные: {{ inputValue }}</div>
-    </main>
-    <script>
-        new Vue({
-            el: 'main',
-            data: {
-                message: 'Hello vuejs!',
-                counter: 0,
-                doShowAnything: false,
-                inputValue: '',
-            },
-            methods: {
-                onHeaderClick() {
-                    alert(this.message)
-                },
-                onButtonClick() {
-                    this.message = this.getComputedDate
-                    this.counter++
-                }
-            },
-            computed: {
-                getComputedDate() {
-                    console.log(`getComputedDate CALLED ${this.counter} times`)
-                    return new Date().getSeconds()
-                }
-            }
-        })
-    </script>
-    <!-- <h1>Тачка на прокачку</h1>
-    <div class="goods-list"></div>
-    <h1>Корзина товаров</h1>
-    <div class="cart-list"></div> -->
-    <!-- <script src="./public/js/shop.js"></script> -->
+    <main></main>
+    <script src="./public/js/shop.js"></script>
 </body>
 
 </html>
