@@ -3,6 +3,9 @@
     <div class="cart-item-name">{{ getItemdata.name }}</div>
     <div class="cart-item-price">{{ getItemdata.price }} руб.</div>
     <div class="cart-item-count">{{ getItemdata.count }}</div>
+    <button class="plus-btn">+</button>
+    <button class="minus-btn">-</button>
+    <button class="del-btn">Удалить все</button>
   </div>
 </template>
 
