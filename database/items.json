@@ -1,0 +1,50 @@
+{
+    "1": {
+        "id": 1,
+        "name": "KIA RIO X-LINE, 2017",
+        "price": 980000,
+        "img": "img/kia_rio.jpg"
+    },
+    "2": {
+        "id": 2,
+        "name": "KIA MAGENTIS, 2009",
+        "price": 480000,
+        "img": "img/kia_magentis.jpg"
+    },
+    "3": {
+        "id": 3,
+        "name": "DODGE CALIBER, 2008",
+        "price": 495000,
+        "img": "img/dodge_caliber.jpg"
+    },
+    "4": {
+        "id": 4,
+        "name": "CADILLAC SRX, 2014",
+        "price": 1450000,
+        "img": "img/cadillac_srx.jpg"
+    },
+    "5": {
+        "id": 5,
+        "name": "CHEVROLET CRUZE, 2011",
+        "price": 455000,
+        "img": "img/chevrolet_cruze.jpg"
+    },
+    "6": {
+        "id": 6,
+        "name": "VOLKSWAGEN TIGUAN, 2009",
+        "price": 725000,
+        "img": "img/volkswagen_tiguan.jpg"
+    },
+    "7": {
+        "id": 7,
+        "name": "NISSAN QASHQAI, 2011",
+        "price": 770000,
+        "img": "img/nissan_qashqai.jpg"
+    },
+    "8": {
+        "id": 8,
+        "name": "CHEVROLET CAPTIVA, 2011",
+        "price": 770000,
+        "img": "img/chevrolet_captiva.jpg"
+    }
+}
