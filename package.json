@@ -32,6 +32,7 @@
     "webpack-merge": "^5.7.3"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "vue": "^2.6.12",
     "vue-loader": "^15.9.2",
     "vue-template-compiler": "^2.6.12",

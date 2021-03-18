@@ -2,6 +2,7 @@
   <div>
     <h1>Тачка на прокачку</h1>
     <Catalog />
+    <AddForm />
     <h1>Корзина товаров</h1>
     <Cart />
   </div>
@@ -10,11 +11,13 @@
 <script>
 import Catalog from "./components/Catalog.vue";
 import Cart from "./components/Cart.vue";
+import AddForm from "./components/AddForm.vue";
 
 export default {
   components: {
     Catalog,
     Cart,
+    AddForm,
   },
 };
 </script>
