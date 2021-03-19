@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "webpack",
+    "dev": "webpack serve --hot --config webpack.dev.config.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,24 @@
   "bugs": {
     "url": "https://github.com/nat0t/js_advanced/issues"
   },
-  "homepage": "https://github.com/nat0t/js_advanced#readme"
+  "homepage": "https://github.com/nat0t/js_advanced#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.8",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.1.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.25.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "vue": "^2.6.12",
+    "vue-loader": "^15.9.2",
+    "vue-template-compiler": "^2.6.12",
+    "vuex": "^3.6.2"
+  }
 }
